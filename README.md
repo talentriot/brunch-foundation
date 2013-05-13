@@ -20,6 +20,7 @@ into it, and by using brunch you can incorporate `CoffeeScript`, `LiveScript` or
 - Install [node.js](http://nodejs.org)
 - Install Brunch: `sudo npm install -g brunch`
 - Install SASS and Compass: `gem install compass`
+- Install Foundation CSS: `gem install zurb-foundation`
 - Run `brunch new <project name> -s github://talentriot/brunch-foundation` to download the skeleton into your project folder.
 - `$ cd <project name>`
 - Run `npm install` to install any node dependencies listed in `package.json`.
