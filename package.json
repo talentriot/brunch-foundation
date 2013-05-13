@@ -1,0 +1,33 @@
+{
+  "author": "Your Name",
+  "name": "package-name",
+  "description": "Package description",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.10"
+  },
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "dependencies": {
+    "javascript-brunch": "> 1.5 < 1.6",
+
+    "css-brunch": "> 1.5 < 1.6",
+    "sass-brunch": "> 1.5 < 1.6",
+
+    "handlebars-brunch": "> 1.5 < 1.6",
+
+    "uglify-js-brunch": "> 1.5 < 1.6",
+    "clean-css-brunch": "> 1.5 < 1.6"
+  },
+  "devDependencies": {
+    "chai": "1.2.0",
+    "sinon": "1.4.2",
+    "sinon-chai": "2.1.2"
+  }
+}

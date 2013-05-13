@@ -1,0 +1,72 @@
+<h1 id="brunch-foundation">Brunch Foundation</h1>
+
+<p>Simple javascript backbone.js skeleton built on top of <a href="http://brunch.io">brunch</a> that includes essentials and provides some guidance at creating maintainable apps.</p>
+
+<h3 id="included-tech">Included tech</h3>
+
+<ul>
+<li>Javascript - because you should know JS before learning anything that compiles
+into it, and by using brunch you can incorporate <code>CoffeeScript</code>, <code>LiveScript</code> or anything, really, when you feel comfortable.</li>
+<li><a href="http://backbonejs.org/">Backbone</a> - why we're all here</li>
+<li><a href="http://lodash.com">Lo-Dash</a> - An alternative to Underscore.js, delivering consistency, customization, performance, and extra features.</li>
+<li><a href="http://jquery.com/">jQuery</a> - For that low level dom manipulation</li>
+<li><a href="http://handlebarsjs.com">Handlebars</a> - sensible default thats faster than underscore, wildly used and understood</li>
+<li><a href="http://sass-lang.com/">Sass</a> with <a href="http://compass-style.org/">compass</a> - dynamic stylesheet language, comparable with LESS and Stylus</li>
+<li><a href="https://github.com/tbranyen/backbone.layoutmanager">LayoutManager</a> - because you need something to help backbone wrangle those views</li>
+<li><a href="https://github.com/zurb/foundation">Foundation</a> cuz we don't know how do write our own css.</li>
+</ul>
+
+<h2 id="install">Install</h2>
+
+<ul>
+<li>Install <a href="http://nodejs.org">node.js</a></li>
+<li>Install Brunch: <code>sudo npm install -g brunch</code></li>
+<li>Install SASS and Compass: <code>gem install compass</code></li>
+<li>Run <code>brunch new &lt;project name&gt; -s github://talentriot/brunch-foundation</code> to download the skeleton into your project folder.</li>
+<li><code>$ cd &lt;project name&gt;</code></li>
+<li>Run <code>npm install</code> to install any node dependencies listed in <code>package.json</code>.</li>
+</ul>
+
+<h2 id="compiling">Compiling</h2>
+
+<ul>
+<li>To build your project run <code>brunch build</code>.</li>
+<li>To continually watch your project folder changes and auto-compile, use <code>brunch watch</code>.</li>
+<li>If you want to start a simple server, run <code>brunch watch --server</code></li>
+<li>If you want to build a minified version (for production release), run <code>brunch build -o</code></li>
+</ul>
+
+<p>See more info on the <a href="http://brunch.readthedocs.org/en/latest/">official brunch docs</a></p>
+
+<h2 id="unit-testing">Unit Testing</h2>
+
+<p>The <a href="http://visionmedia.github.com/mocha/">Mocha</a> test-suite is included by default.  Files located in <code>tests</code> that end with <code>_test.js</code> (or .coffee) are automatically packaged.</p>
+
+<p>To run tests in the browser, navigate to <code>public/test/index.html</code>.  Test-related code is automatically recompiled during <code>brunch build</code> and <code>brunch watch</code>, and will automatically refresh the test page.
+To set up and get started on using a specific testing interface, take a look at the following guides:</p>
+
+<ul>
+<li><a href="https://gist.github.com/4361378">TDD</a></li>
+<li><a href="https://gist.github.com/4361398">BDD</a></li>
+<li><a href="https://gist.github.com/4361413">QUnit</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>Brunch Foundation is distributed under the MIT license. All 3rd party libraries and components are distributed under their respective license terms.</p>
+
+<pre><code>Copyright (C) 2013 TalentRiot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+</code></pre>
