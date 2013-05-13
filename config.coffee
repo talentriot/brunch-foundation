@@ -19,7 +19,7 @@ exports.config =
           'vendor/scripts/lodash.underscore-1.0.1.js',
           'vendor/scripts/backbone-1.0.0.js',
           'vendor/scripts/backbone.layoutmanager-0.8.7.js'
-          'vendor/scripts/foundation-4.1.6/foundation.js'
+          'vendor/scripts/foundation.js'
         ]
     stylesheets:
       joinTo:

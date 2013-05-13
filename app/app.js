@@ -16,6 +16,7 @@ app.start = _.extend({
     this.router = new Router();
 
     this.initializeRouting();
+    $(document).foundation();
     if (typeof Object.freeze === 'function') Object.freeze(this);
   },
   initializeRouting: function() {

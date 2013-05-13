@@ -24,7 +24,7 @@ Link.Collection = Collection.extend({
       },
       {
         name: 'Fork me on Github',
-        url: '//github.com/smazurov/brunch-marcos',
+        url: '//github.com/talentriot/brunch-foundation',
         external: true
       },
       {
@@ -43,7 +43,7 @@ Link.Collection = Collection.extend({
       },
       {
         name: 'Brunch-Marcos Issues',
-        url: '//github.com/smazurov/brunch-marcos/issues',
+        url: '//github.com/talentriot/brunch-foundation/issues',
         external: true
       },
       {

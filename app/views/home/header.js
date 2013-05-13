@@ -11,10 +11,15 @@ var LinksView = View.extend({
 
 module.exports = View.extend({
   template: template,
-  id: 'header',
+  el: false,
   keep: true,
 
   beforeRender: function() {
     this.iterateOverList(LinksView, '.links');
+  },
+  afterRender: function() {
+    var divider = $('<li></li>').addClass('divider');
+    this.$('.links li').after(divider.clone());
+    this.$('ul.links').prepend(divider.clone());
   }
 });
