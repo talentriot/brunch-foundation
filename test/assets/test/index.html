@@ -24,6 +24,8 @@
   <script src="scripts/test.js"></script>
   <script>
     $(function() {
+      var testHelper = require('test/test-helpers');
+      testHelper.init();
       mocha.run();
     });
   </script>
