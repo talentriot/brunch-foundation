@@ -4,10 +4,10 @@ describe('Home Page', function() {
   var view, headerEl, layoutEl;
 
   view = homeLayout.render().view;
-  view.trigger('route', 'index');
+  view.trigger('route', require('views/home/index'));
   beforeEach(function() {
     layoutEl = view.$el;
-    headerEl = layoutEl.find('header');
+    headerEl = layoutEl.find('#header');
   });
   describe('Layout', function() {
     it('should have a jquery wrapped $el',function() {
@@ -24,18 +24,15 @@ describe('Home Page', function() {
       expect(layoutEl.find('a[href="/"]')).to.have.length.of.at.least(1);
     });
     it('there should be content', function() {
-      expect(layoutEl.find('content').text()).to.have.length.of.at.least(2);
+      expect(layoutEl.find('#content').text()).to.have.length.of.at.least(2);
     });
   });
   describe('Header', function() {
-    it('should display 4 links', function() {
-      expect(headerEl.find('ul li')).to.have.length(4);
+    it('should display 11 links', function() {
+      expect(headerEl.find('ul li')).to.have.length(11);
     });
     it('expect external links to have target=_blank', function() {
       expect(headerEl.find('a[target="_blank"]')).to.have.length.of.at.least(1);
-    });
-    it('should have a logo', function() {
-      expect(headerEl.find('img')).to.have.length(1);
     });
   });
 });
