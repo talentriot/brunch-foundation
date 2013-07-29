@@ -15,15 +15,15 @@
     "start": "brunch watch --server"
   },
   "dependencies": {
-    "javascript-brunch": "> 1.5 < 1.6",
+    "javascript-brunch": ">= 1.0 < 1.8",
 
-    "css-brunch": "> 1.5 < 1.6",
-    "sass-brunch": "> 1.5 < 1.6",
+    "css-brunch": ">= 1.0 < 1.8",
+    "sass-brunch": ">= 1.0 < 1.8",
 
-    "handlebars-brunch": "> 1.5 < 1.6",
+    "handlebars-brunch": ">= 1.0 < 1.8",
 
-    "uglify-js-brunch": "> 1.5 < 1.6",
-    "clean-css-brunch": "> 1.5 < 1.6"
+    "uglify-js-brunch": ">= 1.0 < 1.8",
+    "clean-css-brunch": ">= 1.0 < 1.8"
   },
   "devDependencies": {
     "chai": "1.2.0",
